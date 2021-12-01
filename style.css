@@ -1,0 +1,252 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Sacramento&display=swap');
+
+/*RESET*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+	font-family: 'Lato', sans-serif;
+	background-color: #F0F0F0;
+	line-height: 1.5rem;
+	font-size: 18px;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+/*======GLOBAL======*/
+.main-font{
+	font-family: 'Poppins',sans-serif;
+	color: #ffffff;
+	*text-shadow: 1px 1px #808080;
+	text-align: center;
+	font-size: 20px;
+}
+
+.sub-font{
+	font-family: 'Lato',sans-serif;
+	color: #ffffff;
+	text-shadow: 1px 1px #808080;
+	font-size: 20px!important;
+}
+
+.signature-font {
+	font-family: sacramento;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+/*=============Navigation============*/
+.navbar {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	background: rgba(0, 0, 0, 0.6);
+	min-height: 5vh;
+	text-align: center;
+}
+
+.navbar-dark .navbar-nav li{
+	padding-right: 0.5rem;
+}
+
+.navbar-brand i {
+	text-shadow: 2px 2px #808080;
+	color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #ffffff!important;
+	padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #909090!important;
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;;
+  color: #909090;
+  text-transform: uppercase;
+  padding: 4px 0;
+  transition: 0.5s;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #909090;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover {
+  color: #909090!important;
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/*=============landing=============*/
+.landing {
+height:100%;"
+}
+
+
+/*===============landing page text=====================*/
+#home {
+	height: 100vh;
+	background: url(./images/background-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*====================about=======================*/
+.padding {
+padding-top: 4rem;
+}
+/*====================horizontal lines=============*/
+hr.styler {
+    overflow: visible; /* For IE */
+    height:1px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.styler:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 20px;
+    margin-top: -21px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+hr.divider {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*==============buttons================*/
+.btn-secondary {
+	background-color: transparent;
+	border-color: #909090;
+	color: #909090;
+}
+
+.btn-secondary:hover {
+	background-color: #909090;
+	border-color: #909090;
+	color: #ffffff;
+}
+
+.btn-secondary:active {
+	background-color: #909090!important;
+	border-color: #909090!important;
+	color: #ffffff!important;
+}
+
+.btn-secondary:visited {
+	background-color: #ffffff!important;
+	border-color: #909090!important;
+	color: #909090!important;*/
+}
+
+
+
+/*Image hover effect*/
+
+.card-img-top {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card-img-top:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	cursor: pointer;
+}
+
+/*=====card=======*/
+.card {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.card-size {
+	width: 25rem;
+}
+
+/*============contact page===========*/
+#contact {
+	background-color: #404040;
+	color:#ffffff ;
+}
+
+.form {
+	width: 20rem;
+	padding-top: -2!important;
+}
+
+.waves-effect, .btn-modal {
+	color:#ffffff ;
+	border-color: #ffffff;
+}
+
+.waves-effect:hover {
+	color:#404040 ;
+	background-color:#ffffff ;
+}
+
+.fa-3x {
+	color: #ffffff;
+}
+
+.fa-3x:hover {
+	color: #909090;
+}
+
+/*============footer============*/
+footer {
+	background-color:#787878;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+
+/*============modal=============*/
+.modal-header, .modal-body, .modal-footer {
+    background-color:#404040 ;
+}
+
+.close {
+	color: #ffffff;
+}
+
+.btn-modal:hover {
+	color:#404040 ;
+	background-color:#ffffff ;
+}
