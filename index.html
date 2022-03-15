@@ -9,7 +9,8 @@
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="./style.css">
 	<!-- favicon -->
-	<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+	<script src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"></script>
+	<script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
 	 <!-- Font -->
 	 
@@ -80,33 +81,52 @@
 		</div>	
 		<hr class="divider">
 		<!-- skills -->
-		<div class="container">
-				<div class="row">
-							<div class="col-12 col-sm-12 col-md-6">
-									<div class="text-center pt-5 pb-3">
-											<img src="./images/technical.png">
-									</div>
-									<h2 class="text-center">TECHNICAL SKILLS</h2>
-									<div class="text-center pb-2">HTML5</div>
-									<div class="text-center pb-2">CSS3</div>
-									<div class="text-center pb-2">Bootstrap</div>
-									<div class="text-center pb-2">Responsive Web Design</div>
-									<div class="text-center pb-2">GIT</div>
-							</div>			
-							<div class="col-12 col-sm-12 col-md-6">
-									<div class="text-center pt-5 pb-3">
-											<img src="./images/skills.png">
-									</div>
-									<h2 class="text-center">OTHER SKILLS</h2>
-									<div class="text-center pb-2">Detail Oriented</div>
-									<div class="text-center pb-2">Communication</div>
-									<div class="text-center pb-2">Problem Solving</div>
-									<div class="text-center pb-2">Teamwork</div>
-									<div class="text-center pb-5">Time Management</div>
-							</div>			
-				</div>
-		</div>
-</div>
+<div>
+
+                <!-- Core Tools Section Start -->
+                <h1 class="text-center">Skills</h1>
+
+                <div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <span title="HTML"><img width="150" src="images/logo-html5.png"/></span>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <span title="CSS"><img width="150" src="images/logo-css3.png"/></span>
+                        <span title="Javascript"><img width="150" src="images/logo-javascript.png"/></span>
+                    </div>
+                </div>
+                <!-- Core Tools Section End -->
+                
+                <!-- Other Tools Section Start -->
+
+                
+            <div class="d-flex flex-row flex-sm-row flex-md-column flex-lg-column justify-content-center">  
+                <div>
+                    <div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row  justify-content-center">   
+                        <div><span title="MongoDB"><img width="150" src="images/logo-mongodb.png" class="img-fluid"/></span></div>
+                        <div><span title="Node.JS"><img width="150" src="images/logo-nodejs.png" class="img-fluid"/></span></div>
+                        <div><span title="Express.js"><img width="150" src="images/logo-expressjs.png" class="img-fluid"/></span></div>
+                        <div><span title="React.js"><img width="150" src="images/logo-react.png" class="img-fluid"/></span></div>
+                        <div><span title="Bootstrap"><img width="150" src="images/logo-bootstrap.png" class="img-fluid"/></span></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row  justify-content-center">
+                        <div><span title="Gibhub"><img width="150" src="images/logo-git.png" class="img-fluid"/></span></div>
+                        <div><span title="Sublime Text"><img width="150" src="images/logo-sublime-text-3.png" class="img-fluid"/></span></div>
+                        <div><span title="Postman"><img width="150" src="images/logo-postman.png" class="img-fluid"/></span></div>
+                        <div><span title="Gitlab"><img width="150" src="images/logo-gitlab-ci-cd.png" class="img-fluid"/></span></div>
+                        <div><span title="Heroku"><img width="150" src="images/logo-heroku.png" class="img-fluid"/></span></div>
+                    </div>   
+                </div>    
+            </div> 
+                <!-- </div>     -->
+                <!-- Other Tools Section End -->
+                
+            </div>
+            <!-- Tools Section End -->
+            <!-- <hr class="divider"> -->
+
 <!-- About Page End -->
 <hr class="divider">
 
@@ -204,11 +224,11 @@
       </div>
       <div class="modal-body text-white">
         <img src="./images/project-1.png" class="img-fluid">
-        <p class="pt-2">Zuitt Bootcamp Capstone 3-Development - E-Commerce App<br>
-				- Use web-development frameworks<br>
-				- Use database and querying language(NoSQL with MongoDB)<br>
+        <p class="pt-2"><h3>Zuitt Bootcamp Capstone 3-Development - E-Commerce App</h3><br>
+				- Used web-development frameworks<br>
+				- Used database and querying language(NoSQL with MongoDB)<br>
 				- Component-driven Development via React.js<br>
-				- Utilize separation of concerns<br>
+				- Utilized separation of concerns<br>
 				- Deploy to cloud-based platforms(Heroku and Vercel)</p>
       </div>
       <div class="modal-footer">
@@ -293,10 +313,10 @@
 
 
 <!-- Contact -->
-<div id="contact" class="pt-2">
+<div id="contact" class="pt-4">
 
 				<div class="container-fluid">
-						<div class="row">
+		<!-- 				<div class="row">
 									<div class="d-flex flex-row justify-content-center col-12 col-sm-12 col-md-6 pb-5 pb-md-3">
 											<div class="form">
 														<div class="col-12">
@@ -309,34 +329,44 @@
 															    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message..."></textarea>
 															  </div>
 															  <button type="submit" class="form-group btn btn-outline-secondary btn-rounded waves-effect"><i class="fas fa-envelope fa-lg"
-        aria-hidden="true"></i><span class="pl-2">Send</span></button>
+        												aria-hidden="true"></i><span class="pl-2">Send</span></button>
 														</form>
 														</div>
 											</div>			
 
-									</div>	
-									<div class="col-12 col-sm-12 col-md-6 text-center pb-5">
+									</div>	 -->
+									<!-- <div class="col-12 col-sm-12 col-md-6 text-center pb-5"> -->
 										<h2 class="text-center">My direct links</h2>
 													<div class="pt-3">
-													<a href="https://www.linkedin.com/in/gibztajada1432" target="_blank" class="mx-3">
-														<i class="fab fa-linkedin fa-3x"></i>
-													</a>
-													<a href="https://gitlab.com/gibz1432" target="_blank" class="mx-3">
-														<i class="fab fa-gitlab fa-3x"></i>
-													</a>
-													<a href="https://github.com/orfenoko" target="_blank" class="mx-3">
-														<i class="fab fa-github fa-3x"></i>
-													</a>
+														<div class="d-flex justify-content-center pb-3">
+																<a href="https://www.linkedin.com/in/gibztajada1432" target="_blank" class="mx-3">
+																	<i class="fab fa-linkedin fa-3x"></i>
+																</a>
+																<a href="https://gitlab.com/gibz1432" target="_blank" class="mx-3">
+																	<i class="fab fa-gitlab fa-3x"></i>
+																</a>
+																<a href="https://github.com/orfenoko" target="_blank" class="mx-3">
+																	<i class="fab fa-github fa-3x"></i>
+																</a>
+														</div>		
 												</div>
+												<div class="d-flex justify-content-center mb-2">
+													<div>
+													<i class="fa-solid fa-phone"></i> <span class="mx-2">09352187166</span>
+													<i class="fa-solid fa-envelope"></i><span class="mx-2">gibotajada@gmail.com</span>
+													<div>
+												<div>
 									</div>	
 						</div>	
 				</div>
 </div>
 <!-- End of Contact -->
+<!-- <div class="container-fluid"> -->
+	<footer class="text-center py-1 pb-3">
+		<small>&copy 2022 Gilbert Tajada, All rights reserved.</small>
+	</footer>
+<!-- <div> -->
 
-<footer class="text-center py-1">
-	&copy 2022 Gilbert Tajada, All rights reserved.
-</footer>
 
 
 
